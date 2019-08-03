@@ -791,7 +791,7 @@ function toggleSideBySide(editor) {
 	}
 
 	var sideBySideRenderingFunction = function() {
-		// preview.innerHTML = editor.options.previewRender(editor.value(), preview);
+		preview.innerHTML = editor.options.previewRender(editor.value(), preview);
 		createPreview(preview, editor);
 	};
 
@@ -800,7 +800,7 @@ function toggleSideBySide(editor) {
 	}
 
 	if(useSideBySideListener) {
-		// preview.innerHTML = editor.options.previewRender(editor.value(), preview);
+		preview.innerHTML = editor.options.previewRender(editor.value(), preview);
 		createPreview(preview, editor);
 		cm.on("update", cm.sideBySideRenderingFunction);
 	} else {
@@ -858,7 +858,7 @@ function togglePreview(editor) {
 			toolbar_div.className += " disabled-for-preview";
 		}
 	}
-	// preview.innerHTML = editor.options.previewRender(editor.value(), preview);
+	preview.innerHTML = editor.options.previewRender(editor.value(), preview);
 	createPreview(preview, editor);
 
 	// Turn off side by side if needed
@@ -2091,7 +2091,7 @@ SimpleMDE.prototype.value = function(val) {
 		if(this.isPreviewActive()) {
 			var wrapper = cm.getWrapperElement();
 			var preview = wrapper.lastChild;
-			// preview.innerHTML = this.options.previewRender(val, preview);
+			preview.innerHTML = this.options.previewRender(val, preview);
 			createPreview(preview, cm);
 		}
 		return this;
