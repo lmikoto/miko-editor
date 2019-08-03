@@ -1328,58 +1328,58 @@ var toolbarBuiltInButtons = {
 	"separator-4": {
 		name: "separator-4"
 	},
-	"guide": {
-		name: "guide",
-		action: openGuide,
-		className: "fa fa-question-circle",
-		title: "Markdown Guide",
-		default: true
-	},
-	"commit": {
-		name: "git",
-		action: gitCommit,
-		className: "fa fa-git",
-		title: "Git Commit",
-		default: true
-	},
-	"slide": {
-		name: "slide",
-		action: showSlides,
-		className: "fa fa-desktop",
-		title: "Show Slides",
-		default: true
-	},
-	"word": {
-		name: "word",
-		action: showWord,
-		className: "fa fa-file-word-o",
-		title: "File Word",
-		default: true
-	},
-	"pdf": {
-		name: "pdf",
-		action: showPdf,
-		className: "fa fa-file-pdf-o",
-		title: "File PDF",
-		default: true
-	},
-	"copy": {
-		name: "word",
-		action: function() {},
-		className: "fa fa-wechat wechat-button",
-		title: "Copy to WeChat",
-		default: true
-	},
-	"adjust": {
-		name: "theme",
-		action: toggleTheme,
-		className: "fa fa-adjust",
-		title: "changeThemes",
-		default: true
-	},
-	"separator-5": {
-		name: "separator-5"
-	},
+	// "guide": {
+	// 	name: "guide",
+	// 	action: openGuide,
+	// 	className: "fa fa-question-circle",
+	// 	title: "Markdown Guide",
+	// 	default: true
+	// },
+	// "commit": {
+	// 	name: "git",
+	// 	action: gitCommit,
+	// 	className: "fa fa-git",
+	// 	title: "Git Commit",
+	// 	default: true
+	// },
+	// "slide": {
+	// 	name: "slide",
+	// 	action: showSlides,
+	// 	className: "fa fa-desktop",
+	// 	title: "Show Slides",
+	// 	default: true
+	// },
+	// "word": {
+	// 	name: "word",
+	// 	action: showWord,
+	// 	className: "fa fa-file-word-o",
+	// 	title: "File Word",
+	// 	default: true
+	// },
+	// "pdf": {
+	// 	name: "pdf",
+	// 	action: showPdf,
+	// 	className: "fa fa-file-pdf-o",
+	// 	title: "File PDF",
+	// 	default: true
+	// },
+	// "copy": {
+	// 	name: "word",
+	// 	action: function() {},
+	// 	className: "fa fa-wechat wechat-button",
+	// 	title: "Copy to WeChat",
+	// 	default: true
+	// },
+	// "adjust": {
+	// 	name: "theme",
+	// 	action: toggleTheme,
+	// 	className: "fa fa-adjust",
+	// 	title: "changeThemes",
+	// 	default: true
+	// },
+	// "separator-5": {
+	// 	name: "separator-5"
+	// },
 	"undo": {
 		name: "undo",
 		action: undo,
