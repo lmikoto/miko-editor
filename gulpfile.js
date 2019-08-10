@@ -107,11 +107,6 @@ gulp.task("styles", function() {
     .pipe(gulp.dest("./dist/"));
 });
 
-gulp.task("phodit:copy", function() {
-  console.log("copy");
-  return gulp.src(["./dist/*"]).pipe(gulp.dest("../public/editor"));
-});
-
 gulp.task(
   "default",
   gulp.series([
@@ -120,7 +115,6 @@ gulp.task(
     "prettify-js",
     "scripts",
     "prettify-css",
-    "styles",
-    "phodit:copy"
+    "styles"
   ])
 );
